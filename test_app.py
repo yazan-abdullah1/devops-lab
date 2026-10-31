@@ -8,6 +8,7 @@ result = subprocess.run(
 )
 
 assert result.returncode == 0
+
 assert "My name is Yazan" in result.stdout
 
 print("Test passed!")
