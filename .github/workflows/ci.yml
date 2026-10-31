@@ -23,4 +23,5 @@ jobs:
 
       - name: Run automated test
         run: python test_app.py
-
+      - name: Build Docker image
+        run: docker build -t devops-lab:ci .
